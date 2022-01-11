@@ -5,7 +5,14 @@
 	box-sizing:border-box;
 }
 
-
+@keyframes MoveUpDown {
+	0%, 100% {
+		bottom: 0;
+	  }
+	  50% {
+		bottom: 50px;
+	  }
+}
 :root
 {
 	--light-color:#91ACB5;
@@ -37,6 +44,7 @@ header
 
 #logo img
 {
+	animation: MoveUpDown 2s linear infinite;
 	width: 5rem;
 	float: right;
     height: 5rem;
@@ -44,7 +52,7 @@ header
 }
 
 
-ul
+header ul
 {
     list-style:none;
     height: 100%;
@@ -106,8 +114,11 @@ nav ul li
 
 .main img
 {
+	position: relative;
 	height:80%;
 	width: 80%;
+	animation: MoveUpDown 5s linear infinite;
+	
 
 }
 
@@ -117,6 +128,7 @@ nav ul li
 	color: aliceblue;	
 	margin-left: auto;
 	margin-top: 3em;
+	
 	
 
 }
@@ -159,13 +171,18 @@ h1{
 
 	
 }
+
 .about img
 {
+	margin-top:5rem;
+	animation: MoveUpDown 3s linear infinite;
+   position: relative;
 	height: 100%;
 	width: 100%;
 }
 .about article 
 {
+	animation: MoveUpDown 50s ;
 	color: var(--dark-color);
 	padding: 2rem;
 }
@@ -220,12 +237,17 @@ img
   border:none;
   width: 30rem;
   border-radius: 2rem;
+ 
 }
 
 .contact img
 {
 	height: 40vw;
 	width: 40vw;
+	position: relative;
+	margin-top: 2rem;
+	animation: MoveUpDown 3s linear infinite;
+
 }
 .submit
 {
@@ -255,8 +277,52 @@ img
 
 footer
 {
-  
+
+
+	font-size:1rem;
+	background-color:var(--dark-color);
+	color: var(--light-color);
+	height: auto;
+
+
 }
+
+
+footer ul
+{
+	width: 100%;
+	
+	display: flex;
+justify-content: space-between;
+	list-style: none;
+	text-decoration: none;
+	padding: 2rem;
+}
+
+footer ul li a
+{
+	
+	text-decoration: none;
+	padding: 1rem;
+	
+}
+
+
+footer button
+{
+ margin:25px;
+	 border: none;border-radius: 1rem;
+    color:white;
+    font-style: bold;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    background-color:var(--light-color);
+
+
+}
+
 
 
 
@@ -295,4 +361,3 @@ footer
 
 
 }
-
