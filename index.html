@@ -16,7 +16,9 @@
 
 
 
-    <header>
+    <header style="background-repeat: no-repeat;
+     background-image: url(assets/head1.png); background-size:cover">
+
         <div id="logo">
             <img src="assets/logo-01.png">
 
@@ -25,15 +27,36 @@
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#">skills</a></li>
 
-                <li><a href="#">work</a></li>
+                <li><a href="#work">work</a></li>
 
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
 
         </nav>
+
+
+        <div class="main">
+            <div class="mainpic"> <img src="assets/main.png">
+            </div>
+
+            <div class="mainp">
+
+                <h3>Hello there!</h3>
+                <p>
+                    I'm Amat Alsalam A UX designer &front-end developer and graphic designer & product person passionate
+                    about creating simple yet innovative experiences for
+                    users.
+                </p>
+                <button>download cv</button>
+            </div>
+
+        </div>
+
+
+
 
 
 
@@ -42,78 +65,94 @@
 
     <!--            -->
 
-    <div class="main" style=" background-image: url(assets/head.jpg);background-size: cover;">
 
-        <div class="mainpic"> <img src="assets/main.png">
-        </div>
-
-        <div class="mainp">
-            <h1> Alsalam mahdi</h1>
-            <h3>Salama</h3>
-            <p>
-                A UX designer & product person passionate about creating simple yet innovative experiences for users.
-            </p>
-
-        </div>
+    <!--            -->
 
     </div>
 
+    <div id="about" class="about">
 
-    <!--            -->
-    
-</div>
-<h1>About me</h1>
-    <div class="about">
- 
-    <div> <img src="assets/skills-01.png" alt=""></div>
-    <article> I create notable experiences for digital products, with a strong passion for design strategy,
-        illustration,
-        typography and storytelling.
 
-        After, leveraging a successful career in architecture, I strive to emphasise user’s needs and behaviours while
-        balancing them with the clients’ business needs.
 
-        My strengths are my creativity, bringing ideas to the table, putting myself in the user’s shoes and solving
-        issues
-        that at first seem impossible.
-    </article>
-</div> 
+        <div class="aboutp">
 
+            <article>
+                <h1>About me</h1> My Naame is Salama ,Graduated from sana'a university facuality of computer and
+                information technology,Now I work as
+                graphic designer
+                I create notable experiences for digital products, with a strong passion for design strategy,
+                illustration,
+                typography and storytelling.
+                After, leveraging a successful career in architecture, I strive to emphasise user’s needs and behaviours
+                while
+                balancing them with the clients’ business needs.
+
+            </article></div>
+            <div class="aboutpic"> <img src="assets/about.png" alt=""></div>
+
+       
+    </div>
 
 
     <!--            -->
     <h1>MY work</h1>
 
-    <div class="work">  
-    
+    <div class="work" id="work">
 
-        <div class="work1"><img src="assets/skills-01.png" alt=""><p>details</p></div>
-        
-        <div class="work1"><img src="assets/skills-01.png" alt=""> <p>details</p></div>
-       
 
-        <div class="work1"><img src="assets/skills-01.png" alt=""> <p>details</p></div>
-       
+        <div class="work1"><img src="assets/logo.jpg" alt="">
+            <p>details</p>
+        </div>
+
+        <div class="work1"><img src="assets/logo.jpg" alt="">
+            <p>details</p>
+        </div>
+
+
+        <div class="work1"><img src="assets/logo.jpg" alt="">
+            <p>details</p>
+        </div>
+
 
 
     </div>
-    <section class="contact">
-        <div></div>
-        <img src="assets/contact-01.png" alt="">
+    <div id="contact" class="contact">
+        <div>
+            <img src="assets/contact-01.png" alt="">
+        </div>
         <form>
-            <input>
+            <input type="text" placeholder="type your name">
+            <input type="email" placeholder="type your email">
+            <input type="text" placeholder="your comment">
+            <input class="submit" type="submit" name="">
+
         </form>
 
     </div>
 
 
-
+    <div class="qout" style="background-image:url(assets/qout.png) ;">
+        <article>
+            My strengths are my creativity, bringing ideas to the table, putting myself in the user’s mind and solving
+            issues
+            that at first seem impossible.</article>
+    </div>
 
 
     <footer>
-           
-       <p>  &copy; Copyright 2021 - SALAMA All rights reserved;</p>
-     </footer>
+       
+       <div><h2>Explore</h2><ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">skills</a></li>
+
+            <li><a href="#work">work</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+        </ul></div> 
+<br>
+      <div> <p> &copy; Copyright 2021 - SALAMA All rights reserved;</p></div> 
+    </footer>
 
 
 
