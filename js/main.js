@@ -3,9 +3,9 @@ icon.onclick=function()
 {
     document.body.classList.toggle("dark");
     if( document.body.classList.contains("dark"))
-    {icon.src="licon.png";}
+    {document.getElementById("icon").src="assets/sun.png";}
 
-else{icon.src="dicon.png";}
+else{document.getElementById("icon").src="assets/sun.png";}
 
 }
 

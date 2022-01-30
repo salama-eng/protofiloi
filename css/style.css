@@ -361,6 +361,8 @@ h1{
 }
 .contact
 {
+ 
+  padding-top:6rem;
    display: grid;
    grid-template-columns: 1fr 1fr;
 
